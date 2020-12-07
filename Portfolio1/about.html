@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway:100,200,400"
+    />
+
+    <title>About | Portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.flaticon.com/premium-icon/icons/svg/3665/3665997.svg"
+    />
+  </head>
+
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      text-align: right;
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 15px;
+      background: #999 url("./Images/pre-loader.jpg") center no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      padding-right: 50px;
+    }
+
+    body:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(40, 40, 45, 0.5);
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .icon-container {
+      position: absolute;
+      left: 55px;
+      top: 40px;
+      height: 55px;
+      width: 55px;
+      border-radius: 50%;
+      color: white;
+      font-weight: 800;
+      background-color: rgba(255, 255, 255, 0.2);
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .icon-container:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    #back-icon {
+      position: relative;
+      left: -2px;
+      height: 30px;
+      width: 40px;
+    }
+    a {
+      color: inherit;
+    }
+    h1 {
+      width: 100%;
+      margin: 40vh 0 3vh 0;
+      font-family: "Raleway", sans-serif;
+      font-weight: 100;
+      font-size: 3.5vw;
+      transition: all 0.4s;
+    }
+
+    i {
+      display: block;
+      width: 100%;
+      margin-bottom: 4vh;
+      font-size: 1em;
+    }
+
+    .fa {
+      display: inline-block;
+      color: inherit;
+      border: 1px solid;
+      text-decoration: none;
+      padding-top: 12px;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      border-radius: 20%;
+      box-sizing: border-box;
+      margin-left: 1em;
+      background: rgba(0, 0, 0, 0);
+      transition: all 0.4s;
+    }
+
+    .fa:hover {
+      color: #05a;
+      border-color: inherit;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .fa:nth-of-type(2):hover {
+      color: #09c;
+      border-color: inherit;
+    }
+
+    .fa:nth-of-type(3):hover {
+      color: #d19;
+      border-color: inherit;
+    }
+
+    .fa:nth-of-type(4):hover {
+      color: #e90;
+      border-color: inherit;
+    }
+
+    .fa:nth-of-type(5):hover {
+      color: #0c6;
+      border-color: inherit;
+    }
+
+    footer {
+      font-size: 0.7em;
+      text-align: center;
+      color: #666;
+      background: rgba(0, 0, 0, 0.4);
+      width: 100vw;
+      position: absolute;
+      bottom: 0px;
+      padding: 0.8em 0;
+    }
+    .white {
+      color: #333;
+    }
+    .white:before {
+      background: rgba(240, 240, 240, 0.8);
+    }
+    .white footer,
+    .white .fa:hover {
+      background-color: rgba(250, 250, 2520, 0.4);
+    }
+  </style>
+  <body>
+    <div class="icon-container center" id="icon_container">
+      <svg
+        width="1em"
+        height="1em"
+        viewBox="0 0 16 16"
+        class="bi bi-chevron-left"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+        id="back-icon"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+        />
+      </svg>
+    </div>
+    <h1>Abhinav Gupta</h1>
+    <i>Frontend Developer & UI Designer</i>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-behance"></a>
+    <a href="#" class="fa fa-codepen"></a>
+    <a href="#" class="fa fa-github"></a>
+
+    <footer>
+      <a href="#" onClick="document.body.classList.toggle('white')"
+        >White layout</a
+      >
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- //=================================== back to home ================================== -->
+    <script>
+      icon_container.addEventListener("click", () => {
+        window.location.href = "index.html";
+        return false;
+      });
+    </script>
+  </body>
+</html>
